@@ -16,6 +16,7 @@
     }
     .pdf-item {
       margin-bottom: 25px;
+      clear: both;
     }
     .pdf-item a {
       text-decoration: none;
@@ -42,15 +43,17 @@
 <h1>
   Some Projects From Work, Home, and School
 </h1>
-By Riju Chatterjee
+Riju Chatterjee
 <body>
-  
+
 <div class="pdf-item">
+<hr>
   <p class = "title">
-    Auto-Advance Mechanical Pencil
+    Auto-Advance Mechanical Pencil Poster
   </p>
   <p class="description">
-    Reverse-engineering an auto-advance mechanical pencil.
+  <img src="imgs/autopencil.png" height="200" style="float: right; margin-left: 16px">
+    Auto-advance mchanical pencils dispense just the right amount of lead as they write, simultaneously protecting the lead from breaking and eliminating the need to manually click or shake the pencil as the lead wears out. When I first found out about these pencils, I was fascinated by what they did but couldn't find much information about how they worked. One source I did find seemed to describe a different mechanism from what I found in pencils I bought. I therefore took one apart and attempted a "reverse-engineered" poster explaining the mechanism.
   </p>
   <a href="pdfs/auto-pencil.pdf" target="_blank" class="url">
     https://randomvertebrate.github.io/pdfs/auto-pencil.pdf
@@ -58,11 +61,17 @@ By Riju Chatterjee
 </div>
 
 <div class="pdf-item">
+<hr>
   <p class="title">
-    Undergraduate Thesis
+    Undergraduate Thesis: <i>Developing a Semi-Analytical Model for High-Speed Rotor Whirl Prediction</i>
   </p>
   <p class="description">
-    Developing a Semi-Analytical Model for High-Speed Rotor Whirl Prediction.
+  <img src="imgs/btechthesis.png" height="200" style="float: right; margin-left: 16px">
+    Most fully analytical treatments of rotor whirl are restricted to very simple rotor
+geometries, and have limited use while studying real-world rotors. Analysis of more
+complex rotors is routinely carried out in Finite Element software such as Ansys, but
+this is less effective at generating fundamental insights to inform the design process.
+This thesis develops a rotor whirl model of intermediate complexity, following some analytical insights into whirling resonance in rotors.
   </p>
   <a href="pdfs/btech-thesis.pdf" target="_blank" class="url">
     https://randomvertebrate.github.io/pdfs/btech-thesis.pdf
@@ -70,11 +79,15 @@ By Riju Chatterjee
 </div>
 
 <div class="pdf-item">
+<hr>
   <p class="title">
-    Heart Valves
+    Simulation of Blood Flow in Mechanical Heart Valve Prostheses
   </p>
   <p class="description">
-    Simulation of blood flow in mechanical heart valve prostheses.
+    <img src="imgs/heartvalve.png" height="200" style="float: right; margin-left: 16px">
+    Various designs exist for Mechanical Heart Valves, but each of them has significant differences in operation from a natural heart valve. This paper (presented at BIT Mesra's internal thermo-fluids conference ICTFSD 2022) considers representative examples of a few popular classes of MHV, and presents FEM simulations of the flow through them in vitro. A comparison is made between the simulation results for each type of valve with a focus on factors contributing to clotting - including flow velocity, shear stress and
+stagnation - as well as on leakage or regurgitation. A simulation-based insight is therefore developed for the relative strengths and weaknesses of each type of valve, and this insight is discussed in the context of common practices in the
+medical field.
   </p>
   <a href="pdfs/heart-valves.pdf" target="_blank" class="url">
     https://randomvertebrate.github.io/pdfs/heart-valves.pdf
@@ -82,11 +95,13 @@ By Riju Chatterjee
 </div>
 
 <div class="pdf-item">
+<hr>
   <p class="title">
     Internship Report, Hector Beverages
   </p>
   <p class="description">
-    Bottle cap design, and design and testing of novel packaging workflow.
+    <img src="imgs/hector.png" height="200" style="float: right; margin-left: 16px">
+    These are reports I submitted during my internship at Hector Beverages. One of my assignments there the design of a bottle cap intended to help customers pierce the hermetic seal on 200ml coconut water bottles. Another was the design and testing of a catch-tray to help manage drink pouches during assembly.
   </p>
   <a href="pdfs/hector.pdf" target="_blank" class="url">
     https://randomvertebrate.github.io/pdfs/hector.pdf
@@ -94,11 +109,13 @@ By Riju Chatterjee
 </div>
 
 <div class="pdf-item">
+<hr>
   <p class="title">
     Urban Pocketknife Design
   </p>
   <p class="description">
-    Utilitarian and non-threatening pocketknife design for urban carry.
+    <img src="imgs/knife.png" height="200" style="float: right; margin-left: 16px">
+    This is a conceptual design for a pocketknife suitable for Every Day Carry in urban or semi-urban environments. It is intended to be functional and serviceable, yet non-threatening and inconspicuous.
   </p>
   <a href="pdfs/knife-writeup.pdf" target="_blank" class="url">
     https://randomvertebrate.github.io/pdfs/knife-writeup.pdf
@@ -106,11 +123,13 @@ By Riju Chatterjee
 </div>
 
 <div class="pdf-item">
+<hr>
   <p class="title">
     Line-of-Sight Stabilization Gyroscope
   </p>
   <p class="description">
-    Study of the dynamics and performance of a 2-axis optical Line-of-Sight stabilization gyroscope.
+    <img src="imgs/gyro.png" height="200" style="float: right; margin-left: 16px">
+    Line-of sight stabilization for optical  devices mounted on moving vehicles can be performed using correcting mirrors coupled to a gimballed gyroscope through a 1:2 kinematic coupling. In such a system, the dependence of the response on forcing can be shown to scale with the inertia of the mirror, marking an important difference in dynamic behavior from free-gimballed gyroscopes. This is a study through numerical dynamic simulations of the error in line-of-sight correction in such a system, i.e. its performance, as affected by design parameters and the frequency and amplitude of forcing.
   </p>
   <a href="pdfs/los-gyro.pdf" target="_blank" class="url">
     https://randomvertebrate.github.io/pdfs/los-gyro.pdf
@@ -118,23 +137,31 @@ By Riju Chatterjee
 </div>
 
 <div class="pdf-item">
+<hr>
   <p class="title">
     Pipe Wrapping
   </p>
   <p class="description">
-    Calculating shapes of insulation strips to be wrapped around pipes with arbitrary bends.
+    <img src="imgs/pipewrap.png" height="200" style="float: right; margin-left: 16px">
+    A straight strip of material (e.g. tape) can be wrapped helically around a straight length of pipe. This is not the case for pipes with bends. This is a tool I wrote to calculate a shape of strip that can be wrapped around a given pipe with arbitrary bends.
   </p>
   <a href="pdfs/pipe-wrap.pdf" target="_blank" class="url">
     https://randomvertebrate.github.io/pdfs/pipe-wrap.pdf
+  </a><br>
+  <a href="https://github.com/RandomVertebrate/PipeWrapper" target="_blank" class="url">
+    https://github.com/RandomVertebrate/PipeWrapper
   </a>
+
 </div>
 
 <div class="pdf-item">
+<hr>
   <p class="title">
     Rolled-Metal Lamp Wick
   </p>
   <p class="description">
-    Qualitative testing of a novel sheet metal lamp-wick design.
+    <img src="imgs/spiralwick.png" height="200" style="float: right; margin-left: 16px">
+    This was my project submission for a graduate Microfluidics course. My idea was to create a combination of macro and micro-channels between successive sheets of rolled sheet metal. The result is a working metal lamp wick with several tweakable design parameters. I tested a few different wicks and commented on the effects of packing tensity, taper, and mouth profile on various aspects of performance or flame behavior.
   </p>
   <a href="pdfs/spiral-wick.pdf" target="_blank" class="url">
     https://randomvertebrate.github.io/pdfs/spiral-wick.pdf
